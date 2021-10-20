@@ -7,7 +7,7 @@ export class TodoItem extends Component {
             <div>
                 <li className="list-group-item text-capitalize d-flex justify-content-between my-2">
                 <h6>{title}</h6>
-                <div className="todo-icon">
+                <div className="todo-icon mt-1">
                     <span className="mx-2 text-success" onClick={editItem} >
                         <i className="fas fa-pen"></i>
                     </span>
